@@ -65,9 +65,8 @@ body {
   }
   
   figcaption{
-    font-size: 1.em;
-
-  }
+    font-size: 1.10em;
+}
   footer {
     background-color: yellowgreen;
     font-family: 'Times New Roman', Times, serif;
