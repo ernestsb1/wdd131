@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    nav {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    nav a {
+      padding: 1rem;
+    }
+    nav a {
+    flex: 1 1 100%;
+  }
+    main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  
+    figure {
+      margin: 0;
+    }
+  
+    
+  }
+  
