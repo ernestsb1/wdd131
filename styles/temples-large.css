@@ -10,12 +10,17 @@
     nav a {
     flex: 1 1 100%;
   }
-    main {
+    wmain {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
     }
   
+    .fi{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       gap: 1rem;
+    }
     figure {
       margin: 0;
     }

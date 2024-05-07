@@ -13,8 +13,13 @@ body {
   header h1 {
     margin: 0;
     color: blue;
+    font-size: 2em;
   }
-  
+  h2{
+    font-size: 1.7em;
+    color: aqua;
+    text-align: center;
+  }
   nav {
     display: flex;
     flex-direction: column;
@@ -42,7 +47,12 @@ body {
   
   
   figure {
+    text-align: center;
+
     margin: 1rem 0;
+    font-size: 1.4em;
+    font-family: cursive;
+    color: brown;
   }
   
   figure img {
@@ -52,11 +62,10 @@ body {
   
   figure figcaption {
     text-align: center;
-    font-style: italic;
   }
   
   figcaption{
-    font-size: 1.7em;
+    font-size: 1.em;
 
   }
   footer {
