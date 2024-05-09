@@ -38,6 +38,12 @@ body {
     color: red;
   }
   
+  .hamburger-menu {
+    display: none; /* Hidden by default for larger screens */
+    cursor: pointer;
+}
+
+
   main {
     max-width: 800px;
     margin: 0 auto;
