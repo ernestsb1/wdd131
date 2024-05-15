@@ -1,7 +1,12 @@
-@media (min-width: 767px) {
-    h2{
-        font-size: 2.5rem;
+@media (min-width: 768px) {
+    .combine{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -81px;
+        width: 100%;
     }
+        
+    
   
   
    
@@ -12,12 +17,7 @@
     picture{
         width: 100%;
     }
-    .combine{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: -81px;
-        width: 100%;
-    }
+    
     
     .img {
         max-width: 1500px;
