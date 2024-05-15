@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Place Picture">
     <meta name="author" content="ERNEST OHWOJEHERI">
     <title>Place</title>
+
     <link rel="stylesheet" href="styles/place.css">
+<link rel="stylesheet" href="styles/place-larger.css">
     <script src="scripts/place.js" defer></script> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,34 +22,34 @@
 
 
         <main class="combine">
-            <section class="frame">
+            <div class="frame">
             <div class="img"></div>
             <picture>
-                <source srcset="images/pexels-oliver.webp" media="min-width: 1500px">
-                <source srcset="images/pexels-oliver.webp" media="min-width: 1200px">
-                <img srcset="images/pexels-oliver.webp" alt="Orem Utah Temple" width="1500" height="750">
+                <source srcset="images/Millenium-Parklarge.webp" media="min-width: 1500px">
+                <source srcset="images/Millenium-Park medium.webp" media="min-width: 1000px">
+                <img srcset="images/Millenium-Parksmall.webp" alt="beautiful evironment" width="1500" height="520">
               </picture>
-            </section>
+            </div>
 
 <section class="Data">
-
+<div class="grid">
 <h1>Data</h1>
-<p class="inf">Area: 923,768 sq km<br>
-    Population: 230,842,743<br>
-    Capital: Abuja<br>
-    President: Bola Ahmed Tinubu<br>
-    Official language: English<br>
-    Currency: Nigerian Naira<br>
+<p class="inf">Area:  923,768 sq km<br>
+    Population:    230,842,743<br>
+    Capital:  Abuja<br>
+    President:  Bola Ahmed Tinubu<br>
+    Official language:  English<br>
+    Currency:  Nigerian Naira<br>
     Time zone	UTC+01:00 (WAT)<br>
     Dialing code: +234<br>
     Internet CCTLD: ng</p>
-
+</div>
     
 </section>
 <section id="weather">
     <h3>Weather</h3>
     
-<img class="i" src="images/weather-19-64.webp " alt="Weather Icon">
+<img class="i" src="images/weather.svg " alt="Weather Icon">
 <div id="pi">
     <p>Temperature: <span id="temperature">10°C</span></p>
     <p>Condition: Partly sunny</p>
@@ -53,8 +59,7 @@
 
 
 </section>
-
-        </main>
+</main>
     
 
 <footer>
