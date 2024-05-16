@@ -19,18 +19,15 @@
     <header>
         <h2>Nigeria</h2>
     </header>
-
-
-        <main class="combine">
+<main>
             <div class="frame">
-            <div class="img"></div>
-            
-            <picture>
-                <source srcset="images/park/Millenium-Parklarge.webp" media="min-width: 550px"> 
-                <img src="images/park/Millenium-Parklarge.webp" alt="Millenium images">
+             <picture>
+                <source srcset="images/Millenium-park-large.webp" media="(min-width: 1500px)">
+                <source srcset="images/Millenium-park-medium.webp" media="(min-width: 1000px)">
+                <img src="images/Millenium-park-small.webp" alt="Millenium park" width="100%" height="500">
               </picture>
+            </div>
               
-
 <section class="Data">
 <div class="grid">
 <h1>Data</h1>
@@ -48,17 +45,22 @@
 </section>
 <section class="weather">
     <h3>Weather</h3>
-    
-<img class="i" src="images/weather.svg " alt="Weather Icon">
-<div id="pi">
+    <div class="weather-icon">
+    <img src="images/weather.svg " alt="partly cloudly">
+
+</div> 
+
+    <div class="weather-info"> 
     <p>Temperature: <span id="temperature">10°C</span></p>
     <p>Condition: Partly sunny</p>
     <p>Wind Speed: <span id="wind-speed">8 km/h</span></p>
     <p>Wind Chill: <span id="wind-chill">9.8°C</span></p>
-</div>   
-
+</div> 
+</div> 
 
 </section>
+
+
 </main>
     
 

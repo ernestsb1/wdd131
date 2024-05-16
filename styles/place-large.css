@@ -1,26 +1,15 @@
 @media (min-width: 768px) {
-    .combine{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: -81px;
-        width: 100%;
-    }
-        
     
+    .frame{    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    } 
   
-  
+    .weather-icon{
+    width: 600px;
+    height: 400px;
    
-    .Data {
-    flex: 1 1 100%;
-  }
- 
-    picture{
-        width: 100%;
-    }
-    
-    
-    .img {
-        max-width: 1500px;
-    }
+}
 
 }
