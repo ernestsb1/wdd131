@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+
 h2{
   background-color: green;
   line-height: 125px;
@@ -101,5 +101,4 @@ footer p {
 #lastModified {
   color: white;
 
-}
 }
