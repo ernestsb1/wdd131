@@ -1,0 +1,103 @@
+h2{
+  background-color: green;
+  line-height: 125px;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.mountains{
+  width: 100%;
+  height: 600px;
+  
+}
+
+.man{
+  margin-top: -39.4px;
+}
+ .grid{ 
+  position: relative;  
+  background-color: skyblue;
+  width: 350px;
+  height: 400px;
+  color: white;
+  font-size: 1.3em;
+  margin-left: 20px;
+  margin-top: -580px;
+  
+
+}
+.inf{
+  margin-left: 15px;
+  font-family:  "Dancing Script", cursive;
+}
+h1{
+  background-color: blueviolet;
+  line-height: 70px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 2em;
+  text-align: left;
+  margin-left: -20px;
+  
+}
+
+.weather{
+  background-color: #c29591;
+  width: 300px;
+  height: 300px;
+  color: white;
+  font-size: 1.3em;
+  margin-left: 1200px;
+  margin-top: -150px;
+}
+
+h3{
+  background-color: blueviolet;
+  line-height: 70px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 2em;
+  text-align: left;
+  margin-left: -20px;
+}
+
+h3::after {
+  content:  url(smiley.gif);
+  
+}
+
+.weather-icon{
+  width: 70px;
+  margin-top: -110px;
+  margin-left: 140px;
+  
+  
+}
+.weather-info{
+  margin-left: 15px;
+  font-family:  "Dancing Script", cursive;
+  
+
+}
+
+
+footer {
+padding-top: 0.2px;
+  text-align: center;
+  background: green;
+}
+
+footer p {
+  font-size: 1.70em;
+  color: white;
+}
+
+#lastModified {
+  color: white;
+
+}
