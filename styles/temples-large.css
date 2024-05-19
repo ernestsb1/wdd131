@@ -1,5 +1,5 @@
 @media (min-width: 767px) {
-    wnav {
+    nav {
       flex-direction: row;
       justify-content: center;
     }
@@ -11,27 +11,27 @@
     flex: 1 1 100%;
   }
  
-  w.nav-menu {
+  .nav-menu {
     display: flex;
     list-style-type: none;
   }
   
-  w.nav-menu li {
+  .nav-menu li {
     margin-left: 1rem;
   }
   
-w.nav-menu li a {
+.nav-menu li a {
     color: #fff;
     text-decoration: none;
   }
     
   
-    w.fi{
+    .fi{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
        gap: 1rem;
     }
-    wfigure {
+    figure {
       margin: 0;
     }
   
