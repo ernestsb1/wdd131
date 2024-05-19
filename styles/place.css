@@ -108,6 +108,10 @@ h3{
       width: 100%;
       height: auto;
   }
+  .Data{
+    display: grid;
+  grid-template-columns: 1fr 200px;
+  }
 h1{
   text-align: center;
 }
@@ -116,12 +120,31 @@ h1{
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
   }
+  .grid{
+    background-color: #333;
+  
+    width: 350px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: -900px;
+    
+  }
 
 .weather {
       display: grid;
 grid-template-columns: 1fr 100px;  }
 }
+.weather {
+  
+  padding: 20px;
+  background-color: #333;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 1100px;
 
+}
 
 
 footer {
