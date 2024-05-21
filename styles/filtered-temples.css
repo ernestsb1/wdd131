@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+  header {
+    background-color: yellowgreen;
+    color: #fff;
+   
+    padding: .5rem 0;
+
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #1a73e8;
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2{
+    font-size: 1.7em;
+    color: #1a73e8;
+    text-align: center;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.nav-container .logo {
+    font-size: 2rem; 
+    font-weight: bold;  
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav--ul__one {
+    margin: 0 auto;
+}
+
+.nav-container, .nav--ul__one,
+.nav--ul__two {
+    display: flex;
+    gap: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.hamburger-menu {
+    display: none; /* Hidden by default for larger screens */
+    cursor: pointer;
+}
+
+Our navigation bar would lo
+
+
+  
+
+ 
+  main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  
+  figure {
+    text-align: center;
+
+    margin: 1rem 0;
+    font-size: 1.4em;
+    font-family: cursive;
+    color: brown;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure figcaption {
+    text-align: center;
+  }
+  
+  figcaption{
+    font-size: 1.10em;
+}
+  footer {
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.7em;
+
+  }
+  
+  #lastModified{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: blue;
+    margin-top: 5px;
+    line-height: 65px;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: greenyellow;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  #filter-menu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+    
+  }
+  
+  #filter-menu button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+  
+  #filter-menu button:hover {
+    background-color: #ddd;
+  }
+  
+  #temple-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .temple-card {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .temple-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .temple-card h3 {
+    margin: 1rem;
+  }
+  
+  .temple-card p {
+    margin: 0 1rem 1rem;
+    font-size: 1.1rem;
+    
+  }
+  
+  
+  #temple-cards {
+    text-align: center;
+  }
