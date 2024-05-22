@@ -167,7 +167,9 @@ Our navigation bar would lo
     color: #ff0000;
   
   }
-  
+  button :hover {
+    color: skyblue;
+  }
   #temple-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
