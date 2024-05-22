@@ -164,6 +164,7 @@ Our navigation bar would lo
   
   #filter-menu button:hover {
     background-color: #ddd;
+    color: #ff0000;
   }
   
   #temple-cards {

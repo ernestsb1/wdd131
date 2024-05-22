@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    nav {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    wnav a {
+      padding: 1rem;
+    }
+    nav a {
+    flex: 1 1 100%;
+  }
+ 
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-menu li {
+    margin-left: 1rem;
+  }
+  
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+    
+  
+    .fi{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       gap: 1rem;
+    }
+    figure {
+      margin: 0;
+    }
+  
+}
