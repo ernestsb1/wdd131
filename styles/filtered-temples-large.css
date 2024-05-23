@@ -4,9 +4,13 @@
       justify-content: center;
     }
   
-    wnav a {
-      padding: 1rem;
+    #temple-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 2rem;
+      padding: 2rem;
     }
+    
     nav a {
     flex: 1 1 100%;
   }

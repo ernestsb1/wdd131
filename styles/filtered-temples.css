@@ -148,7 +148,6 @@ Our navigation bar would lo
   #filter-menu {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     margin-top: 1rem;
     
     
