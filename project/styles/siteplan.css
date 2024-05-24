@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+}
+#frame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px
+    
+    
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 1.7rem;
+
+}
+
+.s{
+    text-align: left;
+}
+h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: skyblue;
+}
+s
+.name {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+.purpose {
+    background-color: aquamarine;
+    width: 400px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.scena {
+    background-color: #F1C40F;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    width: 400px;
+
+}
+
+h3{
+    font-size: 1.7rem;
+    color:#8C6B46 ;
+ 
+}
+.color {
+    font-family: cursive;
+    font-size: 1.2rem;
+    color:#8C6B46 ;
+
+}
+.typo {
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: skyblue ;
+}
+
+.fram {
+    margin-top: 20px;
+}
