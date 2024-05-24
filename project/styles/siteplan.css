@@ -61,11 +61,11 @@ h3{
 .typo {
     font-family: cursive;
     font-size: 1.2rem;
-    color: darkgray ;
-    width: 600px;
-    height: 500px;
+    
 }
 
 .fram {
     margin-top: 20px;
+    width: 100%;
+    height: auto;
 }
