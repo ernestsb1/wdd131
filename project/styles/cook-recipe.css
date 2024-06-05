@@ -1,0 +1,177 @@
+body {
+  background-color: #8C6B46;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+ 
+  header {
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .chicken {
+    background-color: #F1C40F;
+    font-size: 2em;
+    line-height: 200px;
+    text-align: center;
+  }
+ 
+  nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: serif;
+    font-size: 2rem;
+  }
+  nav :hover{
+    color: skyblue;
+    background-color: #fff;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #333;
+    float: left;
+    width: 340px;
+    height: 450px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 340px;
+    height: 200px;
+  }
+  .topic{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+  }
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+
+.two-side{
+  background-color: #F1C40F;
+  margin: 5px;
+  border: 1px solid #333;
+  float: left;
+  width: 680px;
+  height: 400px;
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-family: cursive;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+.img {
+  
+ width: 680px;
+ height: 400px;
+ margin-bottom: 50px;
+  
+}
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f1f1f1;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  #searchBtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Recipe Search Section */
+  #recipe-search {
+    padding: 40px 20px;
+  }
+  
+  #recipe-search h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #333333;
+    margin-top: 50px;
+
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+
+  }
+  
+  footer p {
+    font-size: 1.3em;
+    color: white;
+}
+
+#lastModified {
+    color: #fff;
+
+}
+  
+
+
+
+    
+
+
+
+

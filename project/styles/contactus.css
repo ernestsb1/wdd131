@@ -1,0 +1,109 @@
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+  }
+
+main {
+  background-color: #8C6B46 ;
+}
+body {
+  background-color: #F1C40F;
+}
+nav{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-family: serif;
+      font-size: 2rem;
+    }
+    nav :hover{
+      color: skyblue;
+      background-color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: #fff;
+}
+    form {
+      /* Center the form on the page */
+      margin: 0 auto;
+      width: 400px;
+      /* Form outline */
+      padding: 1em;
+      border: 1px solid #ccc;
+      border-radius: 1em;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    form li + li {
+      margin-top: 1em;
+    }
+    
+    label {
+      /* Uniform size & alignment */
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+    }
+    
+    input,
+    textarea {
+      /* To make sure that all text fields have the same font settings
+         By default, textareas have a monospace font */
+      font: 1em sans-serif;
+    
+      /* Uniform text field size */
+      width: 300px;
+      box-sizing: border-box;
+    
+      /* Match form field borders */
+      border: 1px solid #999;
+    }
+    
+    input:focus,
+    textarea:focus {
+      /* Additional highlight for focused elements */
+      border-color: #000;
+    }
+.recipe-search {
+  font-size: 1.7rem;
+}
+
+footer {
+line-height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    background: #333;
+    margin-bottom: -5px;
+}
+
+footer p {
+    font-size: 1.70em;
+    color: white;
+}
+
+#lastModified {
+    color: #fff;
+
+}
+p{
+    
+    font-size: 1.2rem;
+    text-align: center;
+    justify-items: center;
+}

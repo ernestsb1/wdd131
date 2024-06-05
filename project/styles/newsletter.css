@@ -1,0 +1,145 @@
+
+body {
+    background-color: #8C6B46;
+  
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: auto;
+    }
+   
+    header {
+      background-color: #333333;
+      color: #fff;
+      padding: 20px;
+    }
+
+
+
+nav{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-family: serif;
+        font-size: 2rem;
+      }
+      nav :hover{
+        color: skyblue;
+        background-color: #fff;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+.topic {
+    font-size: 1.5rem;
+}
+      .info {
+        text-align: center;
+        }
+        h2 {
+            font-size: 1.7rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+    
+        
+        input[type="name"],
+        input[type="email"],
+        select,
+        textarea {
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+        } 
+
+        button {
+            font-size: 1.2em;
+        }
+
+      .form-group {
+        margin-bottom: 15px;
+        margin-left: 20px;
+      }
+      
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #F1C40F;
+      }
+
+      .features input[type="checkbox"] {
+        width: 20px;
+        height: 17px;
+        margin-top: 5px;
+        margin-right: 0px;
+        color: #fff;
+      }
+
+      .checkboxes label {
+        font-size: 20px;
+        color: #fff;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+
+
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #333;
+        float: left;
+        width: 440px;
+        height: 550px;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #fff;
+        font-family: "Lato", sans-serif;
+        border-color: #F1C40F;
+    }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 440px;
+        height: 200px;
+      }
+h1 {
+    text-align: center;
+}
+
+.pe {
+    text-align: center;
+}
+      footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        background-color: #333333;
+        margin-top: 50px;
+    
+        color: #fff;
+        padding: 1px;
+        text-align: center;
+    
+      }
+      
+      footer p {
+        font-size: 1.3em;
+        color: white;
+    }
+    
+    #lastModified {
+        color: #fff;
+    
+    }
+    
