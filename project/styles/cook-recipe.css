@@ -166,7 +166,42 @@ h2 {
     color: #fff;
 
 }
-  
+  /* Media Queries */
+@media (max-width: 768px) {
+  .gallery {
+    width: 50%;
+  }
+
+  .two-side {
+    flex-direction: column;
+  }
+
+  .two-side h2,
+  .two-side div,
+  .img {
+    flex-basis: auto;
+  }
+
+  .img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+    margin: 0 5px;
+  }
+}
+
 
 
 
