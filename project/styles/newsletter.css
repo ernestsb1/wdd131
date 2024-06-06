@@ -1,68 +1,76 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
 body {
-      background-color: #8C6B46;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #8C6B46;
+}
 
-    }
-   
-    header {
-      background-color: #333333;
-      color: #fff;
-      padding: 20px;
-    }
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
 
-h2{
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
     padding: 10px;
 }
 
-nav{
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        font-family: serif;
-        font-size: 2rem;
-      }
-      nav :hover{
-        color: skyblue;
-        background-color: #fff;
-      }
-      nav a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      main {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    
-
-.topic {
-    font-size: 1.5rem;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 10px;
 }
-      .info {
-        text-align: center;
-        }
-        h2 {
-            font-size: 1.7rem;
-        }
-        
-        p {
-            font-size: 1.2rem;
-            color: #fff;
-        }
-    
-        
-        input[type="name"],
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+form-group {
+    margin-top: 20px;
+}
+
+.Ingred {
+    color: #fff;
+    font-size: 1.2em;
+}
+#Ing {
+    color: #F1C40F;
+}
+p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+input[type="name"],
         input[type="email"],
         select,
         textarea {
@@ -88,66 +96,47 @@ nav{
         color: #F1C40F;
       }
 
-      .features input[type="checkbox"] {
-        width: 20px;
-        height: 17px;
-        margin-top: 5px;
-        margin-right: 0px;
-        color: #fff;
-      }
 
-      .checkboxes label {
-        font-size: 20px;
-        color: #fff;
-        margin: 0 5px;
-        cursor: pointer;
-      }
+.features {
+    margin-top: 10px;
+}
 
-
-      div.gallery {
-        margin: 5px;
-        float: left;
-        width: 440px;
-        height: 550px;
-        margin-left: 20px;
-        margin-top: 30px;
-        color: #fff;
-        font-family: "Lato", sans-serif;
-        border-color: #F1C40F;
-        padding: 20px;
-    }
-      
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-      
-      div.gallery img {
-        width: 440px;
-        height: 200px;
-      }
-h1 {
+/* Gallery Styles */
+.gallery {
+    margin-top: 20px;
     text-align: center;
+
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .pe {
     text-align: center;
-}
-      footer {
-        position: fixed;
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-        background-color: #333333;
-        color: #fff;
-        padding: 1px;
-        text-align: center;
-        line-height: 50px;
+color: #ffff;    
 
+}
+
+.topic {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #F1C40F;
+}
+
+footer {
+    line-height: 50px;
+        margin-top: 0px;
+        text-align: center;
+        background: #333;
+        margin-bottom: -5px;
+    }
     
-      }
-      
-      footer p {
-        font-size: 1.3em;
+    footer p {
+        font-size: 1.30em;
         color: white;
     }
     
@@ -155,34 +144,34 @@ h1 {
         color: #fff;
     
     }
-    
-    @media (max-width: 768px) {
-        main {
-            padding: 10px;
-        }
-    
-        header h1 {
-            font-size: 22px;
-        }
-    
-        nav a {
-            padding: 3px 10px;
-            margin: 0 5px;
-        }
-    
-        .gallery img {
-            max-width: 100%;
-        }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
     }
-    
-    @media (max-width: 480px) {
-        header h1 {
-            font-size: 18px;
-        }
-    
-        nav a {
-            padding: 3px 8px;
-            margin: 0 3px;
-        }
+
+    header h1 {
+        font-size: 22px;
     }
-    
+
+    nav a {
+        padding: 3px 10px;
+        margin: 0 5px;
+    }
+
+    .gallery img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        padding: 3px 8px;
+        margin: 0 3px;
+    }
+}

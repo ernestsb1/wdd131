@@ -4,27 +4,33 @@ header {
     padding: 20px;
   }
 
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main Content Styles */
 main {
   background-color: #8C6B46 ;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
-body {
-  background-color: #F1C40F;
-}
-nav{
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      font-family: serif;
-      font-size: 2rem;
-    }
-    nav :hover{
-      color: skyblue;
-      background-color: #fff;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-    }
 h2 {
   text-align: center;
 }
@@ -32,7 +38,6 @@ h1 {
   text-align: center;
 }
 p {
-  color: #fff;
 }
     form {
       /* Center the form on the page */
@@ -63,21 +68,17 @@ p {
     
     input,
     textarea {
-      /* To make sure that all text fields have the same font settings
-         By default, textareas have a monospace font */
+      
       font: 1em sans-serif;
     
-      /* Uniform text field size */
       width: 300px;
       box-sizing: border-box;
     
-      /* Match form field borders */
       border: 1px solid #999;
     }
     
     input:focus,
     textarea:focus {
-      /* Additional highlight for focused elements */
       border-color: #000;
     }
 .recipe-search {
@@ -89,11 +90,10 @@ line-height: 50px;
     margin-top: 0px;
     text-align: center;
     background: #333;
-    margin-bottom: -5px;
 }
 
 footer p {
-    font-size: 1.70em;
+    font-size: 1.30em;
     color: white;
 }
 
