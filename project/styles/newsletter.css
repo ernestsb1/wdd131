@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
       background-color: #8C6B46;
@@ -13,7 +19,9 @@ body {
       padding: 20px;
     }
 
-
+h2{
+    padding: 10px;
+}
 
 nav{
         display: flex;
@@ -130,11 +138,11 @@ h1 {
         bottom: 0px;
         width: 100%;
         background-color: #333333;
-        margin-top: 50px;
-    
         color: #fff;
         padding: 1px;
         text-align: center;
+        line-height: 50px;
+
     
       }
       
